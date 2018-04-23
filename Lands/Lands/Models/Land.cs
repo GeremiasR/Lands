@@ -25,8 +25,8 @@ namespace Lands.Models
         public string Region { get; set; }
         [JsonProperty(PropertyName = "subregion")]
         public string Subregion { get; set; }
-        [JsonProperty(PropertyName = "iso639_1")]
-        public int population { get; set; }
+        [JsonProperty(PropertyName = "population")]
+        public int Population { get; set; }
         [JsonProperty(PropertyName = "latlng")]
         public List<double> Latlng { get; set; }
         [JsonProperty(PropertyName = "demonym")]
@@ -40,7 +40,7 @@ namespace Lands.Models
         [JsonProperty(PropertyName = "borders")]
         public List<string> Borders { get; set; }
         [JsonProperty(PropertyName = "nativeName")]
-        public string nativeName { get; set; }
+        public string NativeName { get; set; }
         [JsonProperty(PropertyName = "numericCode")]
         public string NumericCode { get; set; }
         [JsonProperty(PropertyName = "currencies")]
